@@ -15,11 +15,11 @@ function onRun() {
 // app.get('/', helloWorld);
 
 app.get('/', (req, res) => {
-    res.send('Hello world!');
+    res.send('Hello world! real-time updating changes with nodemon ');
 })
 
 app.get('/login', (req, res) => {
-    res.send('login page!');
+    res.send('login page yay! real-time updating changes with nodemon...');
 })
 
 // app.listen(port, onRun);
